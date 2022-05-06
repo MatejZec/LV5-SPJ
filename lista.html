@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+    <link rel="stylesheet" href="assets/plugins/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free-5.15.4-web/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Literatura</h1>
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Osnove web programiranja
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <ul id="naslovi">
+                      <li><a href="#" onclick="ChangeImage('img/51glw8o86NL._SX398_BO1,204,203,200_.jpg')" data-src="img/51glw8o86NL._SX398_BO1,204,203,200_.jpg">Susan Fowler and Victor Stanwick, WEB APPLICATION</a></li>
+                      <li><a href="#" onclick="ChangeImage('img/41RwH9MMO1L._SX328_BO1,204,203,200_.jpg')" data-src="img/41RwH9MMO1L._SX328_BO1,204,203,200_.jpg">John Domingue, Dieter Fensel, James A. Hendler, Handbook of Semantic Web Technologies, 2011</a></li>
+
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Skriptni programski jezici
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <ul id="naslovi1" class="img-links">
+                      <li><a href="#" onclick="ChangeImage('img/naucite-javascript-it-expert-slika-127043905.jpg')" data-src="img/naucite-javascript-it-expert-slika-127043905.jpg">Powers, S., Naučite Javascript, O'Reilly, 2012</a></li>
+                      <li><a href="#" onclick="ChangeImage('img/510JjoNTdOL._SX379_BO1,204,203,200_.jpg')" data-src="img/510JjoNTdOL._SX379_BO1,204,203,200_.jpg">Flanagan, D., JavaScript: The Definitive Guide: Activate Your Web Pages, O'Reilly, 2011</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Web programiranje na strani poslužitelja
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <ul id="naslovi2">
+                      <li><a href="#" onclick="ChangeImage('img/Programiranje_PHP-3_izdanje-Peter_MacIntrye-Kevin_Tatroe-Rasmus_Lerdorf.jpg')" data-src="img/Programiranje_PHP-3_izdanje-Peter_MacIntrye-Kevin_Tatroe-Rasmus_Lerdorf.jpg">Lerdorf, R.,  Tatroe, K., MacIntyre, P., Programiranje PHP, O'Reilly Media, 2006</a></li>
+                      <li><a href="#" onclick="ChangeImage('img/cover-1601.jpg')" data-src="img/cover-1601.jpg">L. Budin, P. Brođanac, Z. Markučič, S. Perić: Napredno rješavanje problema programiranjem u Pythonu, Element, 2013</a></li>
+
+                    </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+  </br>
+    <div class="featured-img">
+      <img src="img/510JjoNTdOL._SX379_BO1,204,203,200_.jpg"  style='height: 50%; width: 50%; object-fit: contain' alt="">
+    </div> 
+    
+    
+    
+    <script src="assets/plugins/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/plugins/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/lista.js"></script>
+</body>
+</html>

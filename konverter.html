@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Konverter</title>
+    <link rel="stylesheet" href="assets/plugins/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td> Pretvori iz <input id="firstinput" onkeyup="convert('C');"></td>
+            <td>
+                <select id="from" onchange="convert('C')">
+                    <option value="EUR" selected>EURO(EUR)</option>
+                    <option value="USD">USdollar(USD)</option>
+                    <option value="HRK">Kuna(HRK)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Pretvori u <input id="secondinput" onkeyup="convert('F')"></td>
+            <td>
+                <select id="to"  onchange="convert('F')">
+                    <option value="EUR">EURO(EUR)</option>
+                    <option value="USD" selected>USdollar(USD)</option>
+                    <option value="HRK">Kuna(HRK)</option>
+                </select>
+            </td>
+        </tr>
+
+        </table>
+    
+    <script src="assets/plugins/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/plugins/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/konverter.js"></script>
+</body>
+</html>

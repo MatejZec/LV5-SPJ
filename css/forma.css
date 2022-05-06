@@ -1,0 +1,51 @@
+body
+{
+	font-family: Helvetica;
+}
+
+h3.naslov
+{
+	text-align: center;
+	margin-bottom:35px;
+}
+
+table tr td
+{
+	padding: 10px 0px;
+}
+
+table tr td:first-child
+{
+	text-align: right;
+
+}
+input
+{
+	padding: 7px;
+	margin-left: 10px;
+	width: 200px;
+}
+
+select
+{
+	padding: 7px;
+	margin-left: 10px;
+	width: 220px;
+}
+
+#dvFormContainer
+{
+	margin: 25px auto;
+	width: 450px;
+	background-color: #e2e2e2;
+	padding: 25px 35px;
+}
+
+button
+{
+	border: 1px solid white;
+	background-color: lightgreen;
+	padding: 10px 20px;
+	color: black;
+	cursor: pointer;
+}
